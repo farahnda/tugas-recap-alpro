@@ -19,9 +19,9 @@ int main(){
     float S = (float) kecepatan1 * waktu2;
     float T = (float) jarak2 / kecepatan2;
 
-    printf("%f\n", V);
-    printf("%f\n", S);
-    printf("%f\n", T);
+    printf("%.2f\n", V);
+    printf("%.2f\n", S);
+    printf("%.2f\n", T);
 
     return 0;
 
